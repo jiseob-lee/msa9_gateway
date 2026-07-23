@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://localhost:8761/eureka
 
 spring:
   application:
@@ -35,3 +35,5 @@ management:
 logging:
   level:
     org.springframework.cloud.gateway: TRACE
+
+debug: true
